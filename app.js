@@ -1,7 +1,8 @@
 "use strict"
 console.log("salmoncookies")
 
-const container = document.getElementsById("container");
+const parentElement = document.getElementsById("container");
+console.log(parentElement);
 
 const hours = ["6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm","6pm", "7pm", "8pm"];
 console.log(hours.length);
