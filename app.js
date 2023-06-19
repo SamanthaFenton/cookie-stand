@@ -3,11 +3,12 @@ console.log(salmoncookie)
 
 const shop = {
     location: seattle,
-    minCustomer: 23,
-    maxCustomer: 65,
+    minCustomerPerHr: 23,
+    maxCustomerPerHr: 65,
     avgCustomerPerHr: 0,
-    avgPerCustomer: 6.3,
+    avgCookiePerCustomer: 6.3,
     hoursOfService: 14,
+    totalDailyCookies: 0;
 
     customersPerHr: function () {
 
@@ -21,7 +22,9 @@ function randomCustomersPerHr(minCustomer, maxCustomer) {
 
 }
 
-
+function multiply(hoursOfService, avgCookiePerCustomer, avgCustomerPerHr) {
+    
+}
 
 
 
