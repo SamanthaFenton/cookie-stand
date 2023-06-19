@@ -1,13 +1,13 @@
 "use strict"
 console.log("salmoncookies")
 
-const parentElement = document.getElementsById("container");
+const parentElement = document.getElementById("container");
 console.log(parentElement);
 
-const hours = ["6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm","6pm", "7pm", "8pm"];
+const hours = ["6am", "7am", "8am", "9am", "10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm","6pm", "7pm"];
 console.log(hours.length);
 
-const shop = {
+const seattle = {
     storeName: "seattle",
     minCustomerPerHr: 23,
     maxCustomerPerHr: 65,
@@ -29,10 +29,15 @@ const shop = {
 
         for (let i = 0; i < hours.length; i++) {
             const li = document.createElement("li");
-            li.textContent = $hours[i]; $this.cookiesEachHour[i];}
+            li.textContent = ${hours[i]}: ${this.cookiesEachHour[i];}
+            cookies;
             ul.appendChild(li);
             }
-        }
+        },
+};
+
+    container; render
+
     //customersPerHr: function () {
 
        // this.avgCustomerPerHr = randomCustomersPerHr(23,65) + "customers per hour";
