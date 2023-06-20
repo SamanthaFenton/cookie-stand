@@ -1,0 +1,23 @@
+table {
+  border: 1px solid black;
+  fill: antiquewhite;
+  padding: 0.5rem;
+}
+
+th {
+  border: 1px solid black;
+  fill: antiquewhite;
+  padding: 0.5rem;
+}
+
+td {
+  border: 1px solid black;
+  fill: antiquewhite;
+  padding: 0.5rem;
+}
+
+#storeTable {
+  border: 1px solid black;
+  fill: antiquewhite;
+  padding: 0.5rem;
+}
