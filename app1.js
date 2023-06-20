@@ -62,8 +62,4 @@ function randomNum(min, max) {
 seattle.render();
 
 
-
-
-
-
-
+*/
