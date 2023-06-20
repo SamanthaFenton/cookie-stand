@@ -19,7 +19,7 @@ const seattle = {
     for (let i = 0; i < hours.length; i++) {
       this.customersEachHour.push(randomNum(this.minCustPerHour, this.maxCustPerHour));
     }
-    // console.log(this.customersEachHour);
+   // console  log(this.customerEachHour)
   },
   calcCookiesEachHour: function () {
     for (let i = 0; i < hours.length; i++) {
@@ -47,15 +47,29 @@ const seattle = {
       li.textContent = `${hours[i]}: ${this.cookiesEachHour[i]} cookies`;
       ul.appendChild(li);
     }
+
+    const li =document.createElement ("li");
+    li.textContent = `Total Cookies: ${this.totalDailyCookies}`;
+    ul.appendChild(li);
     
   },
 };
 
+//copy and paste for each city store amend the figures
+
 seattle.render();
 
-// console.log(seattle.customersEachHour.length);
-// console.log(seattle.cookiesEachHour.length);
+//can render individually or creat a array then create a loop to render all locations in one piece of code.
 
 function randomNum(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
+
+
+
+
+
+
+
+
+
