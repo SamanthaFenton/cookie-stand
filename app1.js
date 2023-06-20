@@ -1,4 +1,4 @@
-"use strict";
+/*"use strict";
 console.log("salmon cookies");
 
 const container = document.getElementById("container");
@@ -53,19 +53,13 @@ const seattle = {
     ul.appendChild(li);
     
   },
-};
-
-//copy and paste for each city store amend the figures
-
-seattle.render();
-
-//can render individually or creat a array then create a loop to render all locations in one piece of code.
-
+}
 function randomNum(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 
+seattle.render();
 
 
 

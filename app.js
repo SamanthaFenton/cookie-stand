@@ -1,5 +1,5 @@
-"use strict"
-console.log("salmoncookies")
+/* "use strict"
+//console.log("salmoncookies")
 
 const parentElement = document.getElementById("container");
 console.log(parentElement);
