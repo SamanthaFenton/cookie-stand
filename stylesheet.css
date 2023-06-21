@@ -1,23 +1,33 @@
+* {
+  background-color: rgb(244, 221, 224);
+}
+
+h1 {
+  background-color: azure;
+}
+
+h2 {
+  background-color: aliceblue;
+}
 table {
   border: 1px solid black;
-  fill: antiquewhite;
+  background-color: azure;
   padding: 0.5rem;
 }
 
 th {
   border: 1px solid black;
-  fill: antiquewhite;
+  background-color: gainsboro;
   padding: 0.5rem;
 }
 
 td {
   border: 1px solid black;
-  fill: antiquewhite;
+  background-color: floralwhite;
   padding: 0.5rem;
 }
 
 #storeTable {
   border: 1px solid black;
-  fill: antiquewhite;
   padding: 0.5rem;
 }
