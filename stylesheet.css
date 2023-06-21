@@ -1,9 +1,11 @@
 * {
   background-color: rgb(244, 221, 224);
+  font-family: cursive;
 }
 
 h1 {
   background-color: azure;
+  text-decoration: underline;
 }
 
 h2 {
