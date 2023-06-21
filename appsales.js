@@ -58,6 +58,8 @@ Store.prototype.calcCookiesEachHr = function () {
 Store.prototype.render = function () {
   this.calcCustPerHr();
   this.calcCookiesEachHr();
+
+
   // creating a table row
   const tr = document.createElement("tr");
 
@@ -79,6 +81,8 @@ Store.prototype.render = function () {
   const storeTotal = document.createElement("th");
   storeTotal.textContent = this.totalDailyCookies;
   tr.appendChild(storeTotal);
+
+  //how to creat a daily total?? how to creat a time display??
 
   //append the tr to the table - storeTable
   storeTable.appendChild(tr);
@@ -126,3 +130,8 @@ console.log(Tokyo);
 console.log(Dubai);
 console.log(Paris);
 console.log(Lima);
+
+
+
+
+

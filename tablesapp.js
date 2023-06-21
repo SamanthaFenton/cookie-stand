@@ -7,5 +7,10 @@ article.appendChild(table);
 const headerRow = document.createElement("tr");
 table.appendChild(headerRow);
 
+//not editing the cells pulling info from formulas?
+
+
 const headerCell = document.createElement("th");
 headerCell.textContent = "Store";
+
+//creating data rows - inserting the data crate 
