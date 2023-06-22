@@ -5,14 +5,19 @@
 
 h1 {
   background-color: aliceblue;
+  font-weight: bold;
+  font-size: 75px;
   text-decoration: underline;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 75%;
 }
-
+a {
+  font-size: 20px;
+  display: flex;
+}
 h2 {
   background-color: aliceblue;
 }
@@ -27,12 +32,15 @@ th {
   border: 1px solid black;
   background-color: gainsboro;
   padding: 0.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 td {
   border: 1px solid black;
   background-color: floralwhite;
   padding: 0.5rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 #storeTable {
