@@ -15,8 +15,6 @@ h1 {
   width: 75%;
 }
 nav {
-  display: inline-flex;
-  justify-content: right;
 }
 
 a {
@@ -27,6 +25,19 @@ a {
 
 h2 {
   background-color: aliceblue;
+}
+
+h3 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+article {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  flex-direction: column;
+}
+
+img {
+  width: 100%;
 }
 
 #logo {
