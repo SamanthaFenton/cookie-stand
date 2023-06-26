@@ -110,11 +110,11 @@ const Dubai = new Store("Dubai", 11, 38, 3.7);
 const Paris = new Store("Paris", 20, 38, 2.3);
 const Lima = new Store("Lima", 2, 16, 4.6);
 
-Seattle.render();
-Tokyo.render();
-Dubai.render();
-Paris.render();
-Lima.render();
+// Seattle.render(); dounle rendering do not need to do as rendering insider the constructor function
+// Tokyo.render();
+// Dubai.render();
+// Paris.render();
+// Lima.render();
 
 storeForm.addEventListener("submit", function (event) {
   event.preventDefault();
